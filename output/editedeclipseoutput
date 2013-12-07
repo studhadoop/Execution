@@ -1,0 +1,206 @@
+13/12/07 12:25:03 WARN util.NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+13/12/07 12:25:03 WARN conf.Configuration: session.id is deprecated. Instead, use dfs.metrics.session-id
+13/12/07 12:25:03 INFO jvm.JvmMetrics: Initializing JVM Metrics with processName=JobTracker, sessionId=
+13/12/07 12:25:03 WARN mapred.JobClient: Use GenericOptionsParser for parsing the arguments. Applications should implement Tool for the same.
+13/12/07 12:25:03 WARN mapred.JobClient: No job jar file set.  User classes may not be found. See JobConf(Class) or JobConf#setJar(String).
+13/12/07 12:25:03 INFO mapred.FileInputFormat: Total input paths to process : 1
+13/12/07 12:25:03 INFO mapred.JobClient: Running job: job_local1373058311_0001
+13/12/07 12:25:03 INFO mapred.LocalJobRunner: OutputCommitter set in config null
+13/12/07 12:25:03 INFO mapred.LocalJobRunner: OutputCommitter is org.apache.hadoop.mapred.FileOutputCommitter
+13/12/07 12:25:03 INFO mapred.LocalJobRunner: Waiting for map tasks
+13/12/07 12:25:03 INFO mapred.LocalJobRunner: Starting task: attempt_local1373058311_0001_m_000000_0
+13/12/07 12:25:03 WARN mapreduce.Counters: Group org.apache.hadoop.mapred.Task$Counter is deprecated. Use org.apache.hadoop.mapreduce.TaskCounter instead
+13/12/07 12:25:03 INFO util.ProcessTree: setsid exited with exit code 0
+13/12/07 12:25:03 INFO mapred.Task:  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@37c70c75
+13/12/07 12:25:03 INFO mapred.MapTask: Processing split: file:/home/sreeveni/myfiles/DT/data/outlook:0+413
+13/12/07 12:25:03 WARN mapreduce.Counters: Counter name MAP_INPUT_BYTES is deprecated. Use FileInputFormatCounters as group name and  BYTES_READ as counter name instead
+13/12/07 12:25:03 INFO mapred.MapTask: numReduceTasks: 1
+13/12/07 12:25:03 INFO mapred.MapTask: Map output collector class = org.apache.hadoop.mapred.MapTask$MapOutputBuffer
+13/12/07 12:25:03 INFO mapred.MapTask: io.sort.mb = 100
+13/12/07 12:25:03 INFO mapred.MapTask: data buffer = 79691776/99614720
+13/12/07 12:25:03 INFO mapred.MapTask: record buffer = 262144/327680
+In map 
+line : Sunny Hot  High  False No
+attr array [Sunny, Hot, High, False]
+size_split : 0
+0 Sunny No:1
+1 Hot No:1
+2 High No:1
+3 False No:1
+In map 
+line : Sunny Hot  High  True No
+attr array [Sunny, Hot, High, True]
+size_split : 0
+0 Sunny No:1
+1 Hot No:1
+2 High No:1
+3 True No:1
+In map 
+line : Overcast  Hot  High  False Yes
+attr array [Overcast, Hot, High, False]
+size_split : 0
+0 Overcast Yes:1
+1 Hot Yes:1
+2 High Yes:1
+3 False Yes:1
+In map 
+line : Rainy  Mild  High  False Yes
+attr array [Rainy, Mild, High, False]
+size_split : 0
+0 Rainy Yes:1
+1 Mild Yes:1
+2 High Yes:1
+3 False Yes:1
+In map 
+line : Rainy  Cool  Normal  False Yes
+attr array [Rainy, Cool, Normal, False]
+size_split : 0
+0 Rainy Yes:1
+1 Cool Yes:1
+2 Normal Yes:1
+3 False Yes:1
+In map 
+line : Rainy  Cool  Normal  True No
+attr array [Rainy, Cool, Normal, True]
+size_split : 0
+0 Rainy No:1
+1 Cool No:1
+2 Normal No:1
+3 True No:1
+In map 
+line : Overcast  Cool  Normal  True Yes
+attr array [Overcast, Cool, Normal, True]
+size_split : 0
+0 Overcast Yes:1
+1 Cool Yes:1
+2 Normal Yes:1
+3 True Yes:1
+In map 
+line : Sunny Mild  High  False No
+attr array [Sunny, Mild, High, False]
+size_split : 0
+0 Sunny No:1
+1 Mild No:1
+2 High No:1
+3 False No:1
+In map 
+line : Sunny Cool  Normal  False Yes
+attr array [Sunny, Cool, Normal, False]
+size_split : 0
+0 Sunny Yes:1
+1 Cool Yes:1
+2 Normal Yes:1
+3 False Yes:1
+In map 
+line : Rainy  Mild  Normal  False Yes
+attr array [Rainy, Mild, Normal, False]
+size_split : 0
+0 Rainy Yes:1
+1 Mild Yes:1
+2 Normal Yes:1
+3 False Yes:1
+In map 
+line : Sunny Mild  Normal  True Yes
+attr array [Sunny, Mild, Normal, True]
+size_split : 0
+0 Sunny Yes:1
+1 Mild Yes:1
+2 Normal Yes:1
+3 True Yes:1
+In map 
+line : Overcast  Mild  High  True Yes
+attr array [Overcast, Mild, High, True]
+size_split : 0
+0 Overcast Yes:1
+1 Mild Yes:1
+2 High Yes:1
+3 True Yes:1
+In map 
+line : Overcast  High  Normal  False Yes
+attr array [Overcast, High, Normal, False]
+size_split : 0
+0 Overcast Yes:1
+1 High Yes:1
+2 Normal Yes:1
+3 False Yes:1
+In map 
+line : Rainy  Mild  High  True No
+attr array [Rainy, Mild, High, True]
+size_split : 0
+0 Rainy No:1
+1 Mild No:1
+2 High No:1
+3 True No:1
+13/12/07 12:25:03 INFO mapred.MapTask: Starting flush of map output
+13/12/07 12:25:03 INFO mapred.MapTask: Finished spill 0
+13/12/07 12:25:03 INFO mapred.Task: Task:attempt_local1373058311_0001_m_000000_0 is done. And is in the process of commiting
+13/12/07 12:25:03 INFO mapred.LocalJobRunner: file:/home/sreeveni/myfiles/DT/data/outlook:0+413
+13/12/07 12:25:03 INFO mapred.Task: Task 'attempt_local1373058311_0001_m_000000_0' done.
+13/12/07 12:25:03 INFO mapred.LocalJobRunner: Finishing task: attempt_local1373058311_0001_m_000000_0
+13/12/07 12:25:03 INFO mapred.LocalJobRunner: Map task executor complete.
+13/12/07 12:25:03 WARN mapreduce.Counters: Group org.apache.hadoop.mapred.Task$Counter is deprecated. Use org.apache.hadoop.mapreduce.TaskCounter instead
+13/12/07 12:25:04 INFO mapred.Task:  Using ResourceCalculatorPlugin : org.apache.hadoop.util.LinuxResourceCalculatorPlugin@2c65a608
+13/12/07 12:25:04 INFO mapred.LocalJobRunner: 
+13/12/07 12:25:04 INFO mapred.Merger: Merging 1 sorted segments
+13/12/07 12:25:04 INFO mapred.Merger: Down to the last merge-pass, with 1 segments left of total size: 979 bytes
+13/12/07 12:25:04 INFO mapred.LocalJobRunner: 
+Reducer : 0 Overcast Yes : 4
+Reducer : 0 Rainy No : 2
+Reducer : 0 Rainy Yes : 3
+Reducer : 0 Sunny No : 3
+Reducer : 0 Sunny Yes : 2
+Reducer : 1 Cool No : 1
+Reducer : 1 Cool Yes : 3
+Reducer : 1 High Yes : 1
+Reducer : 1 Hot No : 2
+Reducer : 1 Hot Yes : 1
+Reducer : 1 Mild No : 2
+Reducer : 1 Mild Yes : 4
+Reducer : 2 High No : 4
+Reducer : 2 High Yes : 3
+Reducer : 2 Normal No : 1
+Reducer : 2 Normal Yes : 6
+Reducer : 3 False No : 2
+Reducer : 3 False Yes : 6
+Reducer : 3 True No : 3
+Reducer : 3 True Yes : 3
+13/12/07 12:25:04 INFO mapred.Task: Task:attempt_local1373058311_0001_r_000000_0 is done. And is in the process of commiting
+13/12/07 12:25:04 INFO mapred.LocalJobRunner: 
+13/12/07 12:25:04 INFO mapred.Task: Task attempt_local1373058311_0001_r_000000_0 is allowed to commit now
+13/12/07 12:25:04 INFO mapred.FileOutputCommitter: Saved output of task 'attempt_local1373058311_0001_r_000000_0' to file:/home/sreeveni/myfiles/outlookOut0
+13/12/07 12:25:04 INFO mapred.LocalJobRunner: reduce > reduce
+13/12/07 12:25:04 INFO mapred.Task: Task 'attempt_local1373058311_0001_r_000000_0' done.
+13/12/07 12:25:04 INFO mapred.JobClient:  map 100% reduce 100%
+13/12/07 12:25:04 INFO mapred.JobClient: Job complete: job_local1373058311_0001
+13/12/07 12:25:04 INFO mapred.JobClient: Counters: 21
+13/12/07 12:25:04 INFO mapred.JobClient:   File System Counters
+13/12/07 12:25:04 INFO mapred.JobClient:     FILE: Number of bytes read=2113
+13/12/07 12:25:04 INFO mapred.JobClient:     FILE: Number of bytes written=185676
+13/12/07 12:25:04 INFO mapred.JobClient:     FILE: Number of read operations=0
+13/12/07 12:25:04 INFO mapred.JobClient:     FILE: Number of large read operations=0
+13/12/07 12:25:04 INFO mapred.JobClient:     FILE: Number of write operations=0
+13/12/07 12:25:04 INFO mapred.JobClient:   Map-Reduce Framework
+13/12/07 12:25:04 INFO mapred.JobClient:     Map input records=14
+13/12/07 12:25:04 INFO mapred.JobClient:     Map output records=56
+13/12/07 12:25:04 INFO mapred.JobClient:     Map output bytes=865
+13/12/07 12:25:04 INFO mapred.JobClient:     Input split bytes=96
+13/12/07 12:25:04 INFO mapred.JobClient:     Combine input records=0
+13/12/07 12:25:04 INFO mapred.JobClient:     Combine output records=0
+13/12/07 12:25:04 INFO mapred.JobClient:     Reduce input groups=20
+13/12/07 12:25:04 INFO mapred.JobClient:     Reduce shuffle bytes=0
+13/12/07 12:25:04 INFO mapred.JobClient:     Reduce input records=56
+13/12/07 12:25:04 INFO mapred.JobClient:     Reduce output records=20
+13/12/07 12:25:04 INFO mapred.JobClient:     Spilled Records=112
+13/12/07 12:25:04 INFO mapred.JobClient:     CPU time spent (ms)=0
+13/12/07 12:25:04 INFO mapred.JobClient:     Physical memory (bytes) snapshot=0
+13/12/07 12:25:04 INFO mapred.JobClient:     Virtual memory (bytes) snapshot=0
+13/12/07 12:25:04 INFO mapred.JobClient:     Total committed heap usage (bytes)=446431232
+13/12/07 12:25:04 INFO mapred.JobClient:   File Input Format Counters 
+13/12/07 12:25:04 INFO mapred.JobClient:     Bytes Read=413
+Current  NODE INDEX . ::0
+Values in node rep to classwise
+    Yes    3
+Enter rule in file Entropy zero ::    Yes
+TOTAL NODES::    1
+COMPLEEEEEEEETEEEEEEEEEE
+
